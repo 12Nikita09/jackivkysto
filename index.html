@@ -91,12 +91,28 @@
                     </div>
                 </section>
             </section>
+            <section class="entrance">
+                <div class="section__info">
+                    <h2 class="entrance__title">Редактировать профиль</h2>
+                    <p> <input type="text" class="entrance__text" placeholder="Жак-Ив Кусто"></p>
+                    <p><input type="text" class="entrance__text" placeholder="Исследователь океана"></p>
+                    <button class="entrance__save">Сохранить</button>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <p class="text">© 2020 Mesto Russia</p>
         </footer>
     </div>
     <script src="/index.js"></script>
+    <script>
+        let buttonEdit = document.querySelector('.profile__btn-edit');
+        let buttonSave = document.querySelector('.entrance__save');
+        let blockEntrance = document.querySelector('.entrance');
+        buttonEdit.addEventListener("click", function (e) {
+            blockEntrance.classList.toggle('visible')
+        });
+    </script>
 </body>
 
 </html>

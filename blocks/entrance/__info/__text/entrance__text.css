@@ -1,0 +1,15 @@
+.entrance__text {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 358px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    padding-bottom: 13px;
+    outline: none;
+    margin: auto 36px;
+}
