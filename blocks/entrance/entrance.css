@@ -7,6 +7,7 @@
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   top: 20%;
   left: 35%;
+  display: none;
 }
 
 .visible {

@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack</title>
     <link rel="stylesheet" href="pages/index.css">
-    <style>
-        .profile__btn-edit {
-            background: #000;
-            border: none;
-        }
-    </style>
 </head>
 
 <body class="body">
@@ -110,10 +104,6 @@
         let buttonEdit = document.querySelector('.profile__btn-edit');
         let buttonSave = document.querySelector('.entrance__save');
         let blockEntrance = document.querySelector('.entrance');
-        buttonEdit.addEventListener("click", function (e) {
-            blockEntrance.classList.toggle('visible');
-            
-        });
         buttonSave.addEventListener("click", function (e) {
             blockEntrance.classList.toggle('visible');
             
