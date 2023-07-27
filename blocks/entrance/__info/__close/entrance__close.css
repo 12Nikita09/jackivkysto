@@ -1,0 +1,11 @@
+.entrance__close {
+    width: 32px;
+    background: none;
+    height: 32px;
+    flex-shrink: 0;
+    border: none;
+    position: absolute;
+    color: #fff;
+    top:-10%;
+    left: 100%;
+}
