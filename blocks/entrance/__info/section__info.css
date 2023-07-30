@@ -1,0 +1,17 @@
+.section__info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 330px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .section__info {
+      width: 282px;
+      height: 322px;
+    }
+  }

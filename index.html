@@ -5,81 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack</title>
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="body">
     <div class="page">
         <header class="header">
             <p class="header__logo"> Mesto <sup>Russia</sup></p>
-            <div class="header__line"></div>
+
         </header>
-        <main>
+        <main class="main">
             <div class="profile">
-                <img src="/picture/img/face.jpg" alt="avatar" class="profile__avatar">
+                <img src="./picture/img/face.jpg" alt="avatar" class="profile__avatar">
                 <div class="profile-info">
                     <div>
                         <p class="profile__title">Жак-Ив Кусто
-                            <button class="profile__btn-edit"><img src="/picture/svg/Edit Button.svg" alt="Edit"
+                            <button class="profile__btn-edit"><img src="./picture/svg/Edit Button.svg" alt="Edit"
                                     class="profile__img-edit"></button>
                         </p>
                     </div>
                     <p class="profile__text">Исследователь океана</p>
                 </div>
-                <button class="profile__btn-add"><img src="/picture/svg/Add Button.svg" alt="Add"
+                <button class="profile__btn-add"><img src="./picture/svg/Add Button.svg" alt="Add"
                         class="profile__img-add"></button>
             </div>
             <section class="elements-grid">
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/castle.jpg" alt="" class="elements__img">
+                        <img src="./picture/img/castle.jpg" alt="" class="elements__img">
                         <p class="elements__text">Карачаевск
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
                 </section>
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/desert.png" alt="" class="elements__img">
+                        <img src="./picture/img/desert.png" alt="" class="elements__img">
                         <p class="elements__text">Гора Эльбрус
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
                 </section>
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/mountains.png" alt="" class="elements__img">
+                        <img src="./picture/img/mountains.png" alt="" class="elements__img">
                         <p class="elements__text">Домбай
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
                 </section>
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/desert.png" alt="" class="elements__img">
+                        <img src="./picture/img/desert.png" alt="" class="elements__img">
                         <p class="elements__text">Гора Эльбрус
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
                 </section>
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/mountains.png" alt="" class="elements__img">
+                        <img src="./picture/img/mountains.png" alt="" class="elements__img">
                         <p class="elements__text">Домбай
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
                 </section>
                 <section class="elements">
                     <div class="elements__rectangle">
-                        <img src="/picture/img/castle.jpg" alt="" class="elements__img">
+                        <img src="./picture/img/castle.jpg" alt="" class="elements__img">
                         <p class="elements__text">Карачаевск
-                            <button class="elements__btn-svg"><img src="/picture/svg/Group.svg" alt=""
+                            <button class="elements__btn-svg"><img src="./picture/svg/Group.svg" alt=""
                                     class="elements__svg"></button>
                         </p>
                     </div>
@@ -91,7 +91,7 @@
                     <p> <input type="text" class="entrance__text" placeholder="Жак-Ив Кусто"></p>
                     <p><input type="text" class="entrance__text" placeholder="Исследователь океана"></p>
                     <button class="entrance__save">Сохранить</button>
-                    <button class="entrance__close"> <img src="/picture/svg/Close Icon.svg"></button>
+                    <button class="entrance__close"> <img src="./picture/svg/Close Icon.svg"></button>
                 </div>
             </section>
         </main>
@@ -99,11 +99,15 @@
             <p class="text">© 2020 Mesto Russia</p>
         </footer>
     </div>
-    <script src="/index.js"></script>
+    <!-- <script src=".index.js"></script> -->
     <script>
         let buttonEdit = document.querySelector('.profile__btn-edit');
         let buttonSave = document.querySelector('.entrance__save');
         let blockEntrance = document.querySelector('.entrance');
+        buttonEdit.addEventListener("click", function (e) {
+            blockEntrance.classList.toggle('visible');
+            
+        });
         buttonSave.addEventListener("click", function (e) {
             blockEntrance.classList.toggle('visible');
             

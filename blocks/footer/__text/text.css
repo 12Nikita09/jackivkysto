@@ -1,8 +1,23 @@
 .text {
-    color: #545454;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #545454;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .text {
+    width: 282px;
+    height: 14px;
+    font-size: 14px;
+  }
+}
+
+

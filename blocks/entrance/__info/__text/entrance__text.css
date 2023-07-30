@@ -11,5 +11,13 @@
     border-bottom: 2px solid grey;
     padding-bottom: 13px;
     outline: none;
-    margin: auto 36px;
+    margin: auto 34px;
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .entrance__text {
+      width: 238px;
+      height: 322px;
+    }
+  }

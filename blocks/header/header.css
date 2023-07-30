@@ -1,4 +1,21 @@
 .header {
-    color: white;
-    max-width: 880px;
+  color: white;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  max-width: 880px;
+  height: 74px;
+  border-bottom: 1px solid #545454;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    width: 282px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    width: 680px;
+  }
 }

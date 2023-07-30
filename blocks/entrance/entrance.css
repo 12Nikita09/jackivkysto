@@ -13,3 +13,11 @@
 .visible {
   display: block;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .entrance {
+    width: 282px;
+    height: 322px;
+  }
+}
+
