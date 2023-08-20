@@ -94,24 +94,55 @@
                     <button class="entrance__close"> <img src="./picture/svg/Close Icon.svg"></button>
                 </div>
             </section>
+            <section class="slider__wrap">
+                <h3 class="slider__title"> Горы Кавказа</h3>
+                <div class="slider__viewport" id="slider__viewport">
+                    <div class="slider">
+                        <img src="./picture/img/img.jpg" alt="mountains">
+                        <img src="./picture/img/img1.jpeg" alt="mountains">
+                        <img src="./picture/img/img2.jpg" alt="mountains">
+                        <img src="./picture/img/img3.jpg" alt="mountains">
+                        <img src="./picture/img/img4.jpeg" alt="mountains">
+                    </div>
+                </div>
+                <div class="slider__pagination">
+                    <div id="viewSlide">
+                        <div class="viewSlide"></div>
+                        <div class="viewSlide"></div>
+                        <div class="viewSlide"></div>
+                        <div class="viewSlide"></div>
+                        <div class="viewSlide"></div>
+                    </div>
+                </div>
+                <div class="slider__control">
+                    <button class="slider__control-button slider__control-back" id="slider__control-back">Назад</button>
+                    <button class="slider__control-button slider__control-next" id="slider__control-next">Вперед</button>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <p class="text">© 2020 Mesto Russia</p>
         </footer>
     </div>
-    <!-- <script src=".index.js"></script> -->
+    <!-- <script src="slider.js"></script> -->
     <script>
         let buttonEdit = document.querySelector('.profile__btn-edit');
         let buttonSave = document.querySelector('.entrance__save');
+        let buttonClose = document.querySelector('entrance__close');
         let blockEntrance = document.querySelector('.entrance');
         buttonEdit.addEventListener("click", function (e) {
             blockEntrance.classList.toggle('visible');
-            
+
         });
         buttonSave.addEventListener("click", function (e) {
             blockEntrance.classList.toggle('visible');
-            
+
         });
+
+        buttonClose.addEventListener("click", function (e) {
+            blockEntrance.classList.toggle('visible');
+        });
+
     </script>
 </body>
 

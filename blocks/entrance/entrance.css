@@ -18,6 +18,8 @@
   .entrance {
     width: 282px;
     height: 322px;
+    left: unset;
+    margin-top: -55px;
   }
 }
 
