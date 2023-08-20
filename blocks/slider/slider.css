@@ -31,9 +31,25 @@
   height: 60px;
   border: none;
 }
+.slider__control-button:hover{
+  background-color: rgb(226, 37, 31);
+  color: rgb(6, 238, 238);
+}
 .slider__control-back {
   left: 20px;
 }
 .slider__control-next {
   right: 20px;
+}
+#viewSlide{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.viewSlide{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #fff;
 }
