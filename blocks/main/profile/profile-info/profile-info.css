@@ -3,7 +3,6 @@
   flex-direction: column;
   align-self: center;
   width: 580px;
-  height: 73px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .profile-info {
