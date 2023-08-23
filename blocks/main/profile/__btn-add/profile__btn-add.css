@@ -5,6 +5,8 @@
   padding: 0px;
   background: black;
   border: none;
+  display: flex;
+  align-self: center;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .profile__btn-add {
