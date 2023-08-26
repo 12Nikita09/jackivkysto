@@ -1,37 +1,37 @@
 @import url('../blocks/body/body.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__logo/headerLogo.css');
 
 @import url('../blocks/main/main.css');
 @import url('../blocks/main/profile/profile.css');
-@import url('../blocks/main/profile/__avatar/profile__avatar.css');
-@import url('../blocks/main/profile/__title/profile__title.css');
-@import url('../blocks/main/profile/__text/profile__text.css');
-@import url('../blocks/main/profile/profile-info/profile-info.css');
-@import url('../blocks/main/profile/__btn-edit/profile__btn-edit.css');
-@import url('../blocks/main/profile/__btn-add/profile__btn-add.css');
-@import url('../blocks/main/profile/__btn-edit/img-edit/profile__img-edit.css');
+@import url('../blocks/main/profile/avatar/profileAvatar.css');
+@import url('../blocks/main/profile/title/profileTitle.css');
+@import url('../blocks/main/profile/text/profileText.css');
+@import url('../blocks/main/profile/profile-info/profileInfo.css');
+@import url('../blocks/main/profile/btnEdit/profileBtnEdit.css');
+@import url('../blocks/main/profile/BtnAdd/profileBtnAdd.css');
+@import url('../blocks/main/profile/btnEdit/imgEdit/profileImgEdit.css');
 
 @import url('../blocks/elements-grid/elements-grid.css');
-@import url('../blocks/elements-grid/__elements/__rectangle/elements__rectangle.css');
-@import url('../blocks/elements-grid/__elements/elements.css');
-@import url('../blocks/elements-grid/__elements/__text/elements__text.css');
-@import url('../blocks/elements-grid/__elements/__img/elements__img.css');
-@import url('../blocks/elements-grid/__elements/__img/__btn-svg/elements__btn-svg.css');
+@import url('../blocks/elements-grid/elements/rectangle/elementsRectangle.css');
+@import url('../blocks/elements-grid/elements/elements.css');
+@import url('../blocks/elements-grid/elements/text/elementsText.css');
+@import url('../blocks/elements-grid/elements/img/elementsImg.css');
+@import url('../blocks/elements-grid/elements/img/btnSvg/elementsBtnSvg.css');
 
 @import url('../blocks/entrance/entrance.css');
-@import url('../blocks/entrance/__info/section__info.css');
-@import url('../blocks/entrance/__info/__title/entrance__title.css');
-@import url('../blocks/entrance/__info/__text/entrance__text.css');
-@import url('../blocks/entrance/__info/__save/entrance__save.css');
-@import url('../blocks/entrance/__info/__close/entrance__close.css');
+@import url('../blocks/entrance/info/sectionInfo.css');
+@import url('../blocks/entrance/info/title/entranceTitle.css');
+@import url('../blocks/entrance/info/text/entranceText.css');
+@import url('../blocks/entrance/info/save/entranceSave.css');
+@import url('../blocks/entrance/info/close/entranceClose.css');
 
 @import url('../blocks/slider/slider.css');
-@import url('../blocks/slider/__title/slider__title.css');
+@import url('../blocks/slider/title/sliderTitle.css');
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__text/text.css');
+@import url('../blocks/footer/text/footerText.css');
 
 @import url('../page/page.css');
 @import url('../pages/index.css');

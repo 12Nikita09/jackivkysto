@@ -1,0 +1,7 @@
+.elementsRectangle {
+    width: 282px;
+    height: 361px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}

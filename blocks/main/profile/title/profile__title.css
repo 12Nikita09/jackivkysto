@@ -1,0 +1,33 @@
+.profileTitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+}
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .profileTitle {
+    width: 282px;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    height: 26px;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile__title {
+    width: 370px;
+  }
+}

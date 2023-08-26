@@ -1,0 +1,16 @@
+.profileBtnAdd {
+  width: 150px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  border: none;
+  display: flex;
+  align-self: center;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .profileBtnAdd {
+    width: 282px;
+    height: 50px;
+  }
+}
