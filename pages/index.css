@@ -1,22 +1,22 @@
 @import url('../blocks/body/body.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__logo/headerLogo.css');
+@import url('../blocks/header/logo/headerLogo.css');
 
 @import url('../blocks/main/main.css');
 @import url('../blocks/main/profile/profile.css');
 @import url('../blocks/main/profile/avatar/profileAvatar.css');
 @import url('../blocks/main/profile/title/profileTitle.css');
 @import url('../blocks/main/profile/text/profileText.css');
-@import url('../blocks/main/profile/profile-info/profileInfo.css');
+@import url('../blocks/main/profile/profileInfo/profileInfo.css');
 @import url('../blocks/main/profile/btnEdit/profileBtnEdit.css');
-@import url('../blocks/main/profile/BtnAdd/profileBtnAdd.css');
+@import url('../blocks/main/profile/btnAdd/profileBtnAdd.css');
 @import url('../blocks/main/profile/btnEdit/imgEdit/profileImgEdit.css');
 
 @import url('../blocks/elements-grid/elements-grid.css');
 @import url('../blocks/elements-grid/elements/rectangle/elementsRectangle.css');
 @import url('../blocks/elements-grid/elements/elements.css');
-@import url('../blocks/elements-grid/elements/text/elementsText.css');
+@import url('../blocks/elements-grid/elements/elementsText/elementsText.css');
 @import url('../blocks/elements-grid/elements/img/elementsImg.css');
 @import url('../blocks/elements-grid/elements/img/btnSvg/elementsBtnSvg.css');
 
