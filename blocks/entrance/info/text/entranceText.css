@@ -1,4 +1,4 @@
-.entrance__text {
+.entranceText {
   color: #000;
   font-family: Inter;
   font-size: 14px;
@@ -16,7 +16,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .entrance__text {
+  .entranceText {
     width: 238px;
     margin: 37px 20px 0px;
   }

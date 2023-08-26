@@ -1,4 +1,4 @@
-.text {
+.footerText {
   color: #545454;
   font-family: Inter;
   font-size: 18px;
@@ -13,7 +13,7 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .text {
+  .footerText {
     width: 282px;
     height: 14px;
     font-size: 14px;
